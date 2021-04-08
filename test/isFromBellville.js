@@ -1,3 +1,4 @@
 function isFromBellville (regNum) {
-  //return regNum.startsWith ("CY");
+  let trimmed = regNum.trim();
+  return trimmed.startsWith ("CY");
 }

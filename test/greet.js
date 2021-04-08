@@ -1,3 +1,4 @@
 function greet (name) {
-    //return "Hello, " + name;
-  }
+  var nameTrim = name.trim();
+	return "Hello, " + nameTrim;
+}
