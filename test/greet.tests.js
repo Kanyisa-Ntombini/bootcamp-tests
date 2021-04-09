@@ -6,9 +6,9 @@ describe ('The greet function',
             }
         );
 
-        it ('should say "Hello, Kanyisa"', 
+        it ('should say "Hello, Autumn"', 
             function () {
-                assert.deepEqual("Hello, Kanyisa", greet("Jack"));
+                assert.deepEqual("Hello, Autumn", greet("    Autumn     "));
             }
         );
 
