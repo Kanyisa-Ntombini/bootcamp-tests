@@ -30,5 +30,11 @@ describe('The isFromBellville function',
                 assert.deepEqual(false, isFromBellville(""), 'must start with "CY"');
             }
         );
+
+        it('should return "Please supply a string" for 544',
+            function () {
+                assert.deepEqual("Please supply a string", isFromBellville(544), 'must start with "CY"');
+            }
+        );
     }
 );

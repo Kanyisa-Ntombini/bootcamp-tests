@@ -1,6 +1,11 @@
 function isWeekday(wkDay) {
-	let trimDay = wkDay.trim();
-	let day = trimDay.toUpperCase();
+	if ((typeof wkDay) === "string") {
+		let trimDay = wkDay.trim();
+		let day = trimDay.toUpperCase();
 	 
-	 return !(day.startsWith("S")) && day.includes("DAY");
+	 	return !(day.startsWith("S")) && day.includes("DAY");
+	}
+	else {
+		return "Please supply a string";
+	}
 }
