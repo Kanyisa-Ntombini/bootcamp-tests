@@ -26,9 +26,9 @@ describe('The countRegNumber function' ,
             }
         );
 
-        it('should return "Please supply a string" for 100' , 
+        it('should return "Please enter a string" for 100' , 
             function () {
-                assert.deepEqual("Please supply a string", countRegNumber(100));
+                assert.deepEqual("Please enter a string", countRegNumber(100));
             }
         );
     }

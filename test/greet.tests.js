@@ -24,9 +24,9 @@ describe ('The greet function',
             }
         );
 
-        it ('should say "Please supply a string"', 
+        it ('should say "Please enter a string"', 
             function () {
-                assert.deepEqual("Please supply a string", greet(744));
+                assert.deepEqual("Please enter a string", greet(744));
             }
         );
         

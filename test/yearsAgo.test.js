@@ -7,15 +7,15 @@ describe('The yearsAgo function' , function(){
         assert.deepEqual(14, yearsAgo(2007));
     });
 
-    it('should return "Please supply a number" for "Andile"' , function(){
-        assert.deepEqual("Please supply a number", yearsAgo("Andile"));
+    it('should return "Please enter a number" for "Andile"' , function(){
+        assert.deepEqual("Please enter a number", yearsAgo("Andile"));
     });
 
-    it('should return "Please supply a positive number" for -10' , function(){
-        assert.deepEqual("Please supply a positive number", yearsAgo(-10));
+    it('should return "Please enter a positive number" for -10' , function(){
+        assert.deepEqual("Please enter a positive number", yearsAgo(-10));
     });
 
-    it('should return "Please supply a number" for "cake"' , function(){
-        assert.deepEqual("Please supply a number", yearsAgo("cake"));
+    it('should return "Please enter a number" for "cake"' , function(){
+        assert.deepEqual("Please enter a number", yearsAgo("cake"));
     });
 });

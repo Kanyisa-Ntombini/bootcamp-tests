@@ -6,6 +6,6 @@ function isWeekday(wkDay) {
 	 	return !(day.startsWith("S")) && day.includes("DAY");
 	}
 	else {
-		return "Please supply a string";
+		return "Please enter a string";
 	}
 }

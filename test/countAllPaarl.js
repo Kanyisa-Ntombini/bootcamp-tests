@@ -13,6 +13,6 @@ function countAllPaarl (regNumString) {
 		 return count;
 	}
 	else {
-		return 'Please supply a string';
+		return 'Please enter a string';
 	}
 }

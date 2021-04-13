@@ -7,8 +7,8 @@ describe('The countAllPaarl function' , function(){
         assert.deepEqual(3, countAllPaarl("  CJ 898-177, CJ 768-445 , CJ 909-776"));
     });
 
-    it('should return "Please supply a string" for 23' , function(){
-        assert.deepEqual("Please supply a string", countAllPaarl(23));
+    it('should return "Please enter a string" for 23' , function(){
+        assert.deepEqual("Please enter a string", countAllPaarl(23));
     });
 
     it('should return 0 for ""' , function(){

@@ -19,13 +19,13 @@ describe('The function countAllFromTown' , function(){
         assert.deepEqual(0,countAllFromTown(",","CJ"));
     });
 
-    it('should return "Please supply a string for the registration numbers and location number" for 16 and "MP"' , function(){
+    it('should return "Please enter a string for the registration numbers and location number" for 16 and "MP"' , function(){
 
-        assert.deepEqual("Please supply a string for the registration numbers and location number", countAllFromTown(16,"MP"));
+        assert.deepEqual("Please enter a string for the registration numbers and location number", countAllFromTown(16,"MP"));
     });
 
-    it('should return "Please supply a string for the registration numbers and location number" for "MP 124,CY 567,MP 345, CJ 456,CL 341" and 555' , function(){
+    it('should return "Please enter a string for the registration numbers and location number" for "MP 124,CY 567,MP 345, CJ 456,CL 341" and 555' , function(){
 
-        assert.deepEqual("Please supply a string for the registration numbers and location number", countAllFromTown("MP 124,CY 567,MP 345, CJ 456,CL 341",555));
+        assert.deepEqual("Please enter a string for the registration numbers and location number", countAllFromTown("MP 124,CY 567,MP 345, CJ 456,CL 341",555));
     });
 });

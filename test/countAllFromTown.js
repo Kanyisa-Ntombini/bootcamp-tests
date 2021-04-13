@@ -17,6 +17,6 @@ if (regNumType === 'string' && locationType === 'string'){
     return count;
 }
 else {
-  return "Please supply a string for the registration numbers and location number";
+  return "Please enter a string for the registration numbers and location number";
 }
 }

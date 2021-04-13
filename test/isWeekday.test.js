@@ -30,9 +30,9 @@ describe('The isWeekday function',
       }
     );
 
-    it('should return "Please supply a string" for 111',
+    it('should return "Please enter a string" for 111',
       function () {
-        assert.deepEqual("Please supply a string", isWeekday(111));
+        assert.deepEqual("Please enter a string", isWeekday(111));
       }
     );
   }

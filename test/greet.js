@@ -4,6 +4,6 @@ function greet (name) {
 	  return 'Hello, ' + nameTrim;
   }
   else {
-    return "Please supply a string";
+    return "Please enter a string";
   }
 }
